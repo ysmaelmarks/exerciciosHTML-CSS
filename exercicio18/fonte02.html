@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+    @font-face {
+        font-family: 'celtic';
+        src: url('fonts/celticmd.ttf') format('truetype'), url('fonts/celticmd.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+
+        /**
+        tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embededd-opentype
+        - truetype-aat (apple advanced typography)
+        - svg
+        **/
+    }
+        body{
+            font-family: 'celtic',Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'celtic',Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fonte Muito Pessima</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint incidunt aliquam eligendi veniam, perferendis iure ea qui debitis ab, vero molestias quo eaque quisquam provident fugiat distinctio? Temporibus, perspiciatis culpa.</p>
+</body>
+</html>

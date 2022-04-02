@@ -1,0 +1,12 @@
+h1{
+    color: rgb(210, 229, 247);
+}
+body{
+    background-color: blanchedalmond;
+}
+p, h1, h2{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
